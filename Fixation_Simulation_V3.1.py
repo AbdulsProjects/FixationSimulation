@@ -7,14 +7,6 @@ Simulation Outputs:
     This code outputs 2 files
     'Number_of_Mutants.txt' is a text file that contains information on the number of mutants per generation. This is recored for the first fixation/elimination and the overall mean.
     'Generations_until_Fixation_or_Elimination.txt' is a text file that stores information on how many generations it takes to reach fixation/elimination in each simulation.
-    
-Noted flaw:
-    The dictionaries are capped at 10000 generations, will this ever really be a problem and is there an easy fix that wont make the program run incredibly slow?
-    Essentially, I made the dictionaries as long as the user input for maximum number of generations, unless the user inputs more than 10000,
-    in which case the dictionaries are only 10000 long. If i make it uncapped, it's likely that there will be thousands of empty keys.'
-    
-    Also, mean generations until fixation/elimination is calculated and displayed but not exported. Not sure it's needed as the raw data is exported.'
-
 
 Assumptions:
     1) Individuals reproduce asexually
